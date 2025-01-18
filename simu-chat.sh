@@ -396,7 +396,7 @@ done
 # Function to save username
 save_username() {
 banner
-    echo " ${A} ${c}Enter Your Anonymous ${g}Username${c}"
+    echo -e " ${A} ${c}Enter Your Anonymous ${g}Username${c}"
     echo
     echo
     read -p "[+]──[Enter Your Username]────► " username
